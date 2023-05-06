@@ -1,0 +1,246 @@
+body {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}
+.concerta{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  
+}
+.container{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom left,#09bb18,#2c1bc7) !important;
+}
+.loginContainer {
+  height: 70%;
+  width: 70%;
+  
+  display: flex;
+  justify-content: center; 
+  flex-direction: row;
+}
+.caracol{
+  width: 70%;
+  height: 100%;
+}
+#imgs{
+  border-radius: 0px 9px 9px 0px;
+  height: 100%;
+  width: 100%;
+}
+.login {
+  border-radius: 9px 0px 0px 9px;
+  height: 100%;
+  width: 30%;
+  background-color:rgb(255, 255, 255) ;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginTitle {
+  color: rgb(0, 0, 0);
+}
+.loginForm {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginInput {
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 8px;
+  border: unset;
+  outline: none;
+  position: relative;
+}
+.senhaInput {
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 8px;
+  border: unset;
+  outline: none;
+  position: relative;
+}
+.login__input-border {
+  height: 1px;
+  width: 100%;
+  margin-bottom: 16px;
+  background: linear-gradient(120deg,#2c1bc7,#09bb18);
+  transition: .3s ease-in-out;
+}
+.senha__input-border {
+  height: 1px;
+  width: 100%;
+  margin-bottom: 16px;
+  background: linear-gradient(120deg,#2c1bc7,#09bb18);
+  transition: .3s ease-in-out;
+}
+.senha__input-border ::after{
+  content: '';
+  display: block;
+  height: 1px;
+  width: 0;
+  margin-bottom: 16px;
+  background: linear-gradient(120deg,#2c1bc7,#09bb18);
+  transition: .3s ease-in-out;
+}
+.loginBut {
+  height: 48px;
+  width: 80%;
+  padding-left: 8px;
+  outline: none;
+  position: relative;
+  background: linear-gradient(120deg,#2c1bc7,#09bb18);
+  background-size: 200%;
+  margin-bottom: 32px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: unset;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.loginBut:disabled {
+  background: var(--button-disabled);
+  cursor: not-allowed;
+}
+
+.loginBut:hover {
+  background-position: right;
+}
+
+.loginBut.success {
+  background: var(--button-success);
+}
+
+.chekc {
+
+padding: 0 20px;
+}
+
+
+
+.cadastro {
+  
+  border-radius: 9px 0px 0px 9px;
+  height: 100%;
+  width: 30%;
+  background-color:rgb(255, 255, 255) ;
+  box-sizing: border-box;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.cadastroContainer {
+  border-radius: 9px 0px 0px 9px;
+  height: 70%;
+  width: 70%;
+  background-color:rgb(255, 255, 255) ;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cadastroForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cadastroTitle {
+  margin-top: 19px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+.cadastroInput {
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 8px;
+  border: unset;
+  outline: none;
+  position: relative;
+}
+.senhaInp {
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 8px;
+  border: unset;
+  outline: none;
+  position: relative;
+}
+.cadastro__input-borderl{
+  height: 1px;
+  width: 100%;
+  margin-bottom: 3px;
+  background: linear-gradient(120deg,#2c1bc7,#09bb18);
+  transition: .3s ease-in-out;
+}
+.cadastro__input-borders{
+  height: 1px;
+  width: 100%;
+  margin-bottom: 8px;
+  background: linear-gradient(120deg,#2c1bc7,#09bb18);
+  transition: .3s ease-in-out;
+}
+.cadastro__input-borders ::after{
+  content: '';
+  display: block;
+  height: 1px;
+  width: 0;
+  margin-bottom: 16px;
+  background: linear-gradient(120deg,#2c1bc7,#09bb18);
+  transition: .3s ease-in-out;
+}
+.button {
+  height: 48px;
+  width: 100%;
+  padding-left: 8px;
+  outline: none;
+  position: relative;
+  background: linear-gradient(120deg,#2c1bc7,#09bb18);
+  background-size: 200%;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: unset;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.button:disabled {
+  background: var(--button-disabled);
+  cursor: not-allowed;
+}
+
+.button:hover {
+  background-position: right;
+}
+
+.button.success {
+  background: var(--button-success);
+}

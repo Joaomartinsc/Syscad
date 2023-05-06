@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./perfilPessoal.css" />
+    <title>Perfil Pessoal</title>
+  </head>
+  <body onload="nomedora()">
+    <div class="perfilConteiner">
+      <div class="perfilFuncionario">
+        <nav class="perfilTop">
+          <div class="navbar-top">
+            <nav class="navbar">
+              <div class="nav-wrapper">
+                <a href="#" class="brand-logo">
+                  <img class="logo-sky" src="../../assets/logo.png" />
+                </a>
+                <ul id="nav" class="right hide-on-med-and-down">
+                  <li><a href="../../Home/perfil Aluno/perfilAluno.html">Home</a></li>
+                  <li><a href="../../Treinos/alunos/treinoAluno.html">Treinos</a></li>
+                  <li><a href="../../login + cadastro/login.html">Sair</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </nav>
+
+
+        <div id="perfilPessoalContainer">
+          <div class="row">
+            <div class="col s12 m4 perfil-img-container">
+              <div class="fotoPerfil">
+                <img src="../../assets/avatar.png" class="fotoDoPerfil" />
+              </div>
+            </div>
+
+            <div class="col s12 m8">
+              <div class="my-data-form">
+                <form>
+                  <div class="input-field col s6">
+                    <input placeholder="" id="last_name0" disabled type="text" class="validate">
+                    <label class="active" id="label0" for="last_name0">Nome</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input placeholder="" id="last_name1" disabled type="text" class="validate">
+                    <label class="active" id="label1" for="last_name1">CPF</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input placeholder="" id="last_name2" type="text" class="validate">
+                    <label class="active" id="label2" for="last_name2">E-mail</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input placeholder="" id="last_name3" disabled type="text" class="validate">
+                    <label class="active" id="label3" for="last_name3">Datan Nascimento</label>
+                  </div>
+                  <div class="input-field col s6">  
+                    <input placeholder="" id="last_name4" type="text" class="validate">
+                    <label class="active" id="label4" for="last_name4">Endereço</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input placeholder="" id="last_name5" type="text" class="validate">
+                    <label class="active" id="label5" for="last_name5">Celular</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input placeholder="" id="last_name6" type="text" class="validate">
+                    <label class="active" id="label6" for="last_name6">Plano</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input placeholder="" id="last_name7" disabled type="text" class="validate">
+                    <label class="active" id="label7" for="last_name7">Matricula</label>
+                  </div>
+                  <div>
+                    <a onclick="salvarPerfil()" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./perfil.js"></script>
+    <script src="../file.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

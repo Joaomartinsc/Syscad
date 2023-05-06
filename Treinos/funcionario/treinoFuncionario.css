@@ -1,0 +1,125 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom left, #2c1bc7, #09bb18);
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+}
+
+.page-container {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+
+.page-content {
+  background-color: white;
+  height: 100%;
+}
+
+.navbar-top {
+  width: 100%;
+  height: 20%;
+}
+
+.navbar {
+  height: 100%;
+  align-items: center;
+  background-color: white;
+}
+
+.nav-shadow {
+  height: 2px;
+  width: 100%;
+  background-color: red;
+}
+.brand-logo {
+  width: 25%;
+}
+
+.logo-sky {
+  width: 250px;
+  filter: drop-shadow(5px 4px 2px rgba(0, 0, 0, 0.14));
+  margin: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .logo-sky {
+    width: calc(100% + 100px);
+  }
+}
+
+.navbar ul li a {
+  color: rgb(52, 52, 135) !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.navbar ul li a:hover {
+  background-color: transparent !important;
+}
+
+/* Conteúdo da página: */
+
+.treino-container {
+  padding: 15px 0;
+  max-height: 80%;
+  overflow: scroll;
+  background-color: white;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.treino-form h1,
+h2 {
+  margin: 0;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.treino-form h1 {
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.treino-form h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.treino-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  height: auto;
+  border-radius: 25px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 35px 35px 71px #a1a1a1, -35px -35px 71px #ffffff;
+  transition: all ease-in-out .5s;
+}
+
+.treino-form:hover {
+  transform: scale(1.02);
+  border-radius: 25px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 36px 36px 85px #666666, -36px -36px 85px #ffffff;
+}
+
+.exercice h6 {
+  font-weight: 800;
+  flex-wrap: wrap;
+}
+.save-button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}

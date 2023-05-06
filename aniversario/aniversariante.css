@@ -1,0 +1,79 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom left, #09bb18, #2c1bc7);
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+}
+
+.page-container {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+
+.page-content {
+  background-color: white;
+  height: 100%;
+}
+
+.navbar-top {
+  width: 100%;
+  height: 20%;
+}
+
+.navbar {
+  height: 100%;
+  align-items: center;
+  background-color: white;
+}
+
+.nav-shadow {
+  height: 2px;
+  width: 100%;
+  background-color: red;
+}
+.brand-logo {
+  width: 25%;
+}
+
+.logo-sky {
+  width: 250px;
+  filter: drop-shadow(5px 4px 2px rgba(0, 0, 0, 0.14));
+  margin: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .logo-sky {
+    width: calc(100% + 100px);
+  }
+}
+
+.navbar ul li a {
+  color: rgb(52, 52, 135) !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.navbar ul li a:hover {
+  background-color: transparent !important;
+}
+
+/* Conteúdo da página: */
+
+
+.tableAge{
+  display: flex;
+  align-items:center;
+}
+
+.treino-container .title {
+  text-align: center;
+  width: 100%;
+}

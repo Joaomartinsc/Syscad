@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="perfilFuncionario.css" />
+    <title>Home Funcionario</title>
+  </head>
+  <body onload="CarregaUser()">
+    <div class="perfilConteiner">
+      <div class="perfilFuncionario">
+        <nav class="perfilTop">
+          <div class="navbar-top">
+            <nav class="navbar">
+              <div class="nav-wrapper">
+                <a href="#" class="brand-logo">
+                  <img class="logo-sky" src="../../assets/logo.png" />
+                </a>
+                <ul id="nav" class="right hide-on-med-and-down">
+                  <li><a href="../../Home/perfil Funcionario/perfilFuncionario.html">Home</a></li>
+                  <li><a href="../../Treinos/escolherTreino/escolherTreino.html">Montar Treino</a></li>
+                  <li><a href="../../login + cadastro/login.html">Sair</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </nav>
+
+        <form class="perfilForm">
+          <div class="gridCont">
+            <div class="gridItem">
+              <a href="../../PerfilPessoal/perfil Pessoal Professor/perfil pessoal.html">
+                <i class="material-icons">assignment_ind</i>
+                <h5>Perfil</h5>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a onclick="atualizarEntrada()" id="butt">
+                <h2 id="contador">0/55</h2>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="../../Treinos/escolherTreino/escolherTreino.html">
+                <i class="material-icons">iso</i>
+                <h5>Treinos</h5>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="../../aniversario/aniversariante.html">
+                <i class="large material-icons">cake</i>
+                <h5>Aniversarios</h5>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="../../academia/academia Funcionario/academia.html">
+                <i class="material-icons">perm_device_information</i>
+                <h5>Academia</h5>
+              </a>
+            </div>
+            <div class="gridItem">
+              <a href="../../login + cadastro/login.html">
+                <i class="material-icons">power_settings_new</i>
+                <h5>Sair</h5>
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="../../../arduinet/file.js"></script>
+    <script src="../file.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login2</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="loginContainer">
+        <div class="concerta">
+          <div class="login" id="login">
+            <form class="loginForm" onsubmit="entrar(event)">
+              <h1 class="loginTitle">Login</h1>
+              <input
+                class="loginInput"
+                id="loginNome"
+                type="text"
+                placeholder="nome do usuario"
+              />
+              <span class="login__input-border"></span>
+
+              <input
+                class="senhaInput"
+                id="loginSenha"
+                type="text"
+                placeholder="senha"
+              />
+              <span class="senha__input-border"></span>
+
+              <button class="loginBut" type="submit">Entrar</button><br />
+              <a href="#" onclick="trocaDiv();"
+                ><label
+                  >Ainda não possui conta?<br />clique aqui para
+                  cadastro!</label
+                ></a
+              >
+            </form>
+          </div>
+
+          <div class="cadastro" id="cadastro">
+            <div class="cadastroContainer">
+              <form class="cadastroForm" onsubmit="criar(event)">
+                <h1 class="cadastroTitle">Cadastro</h1>
+
+                <input
+                  class="cadastroInput"
+                  id="inputUser"
+                  placeholder="Nome do usuario"
+                />
+                <span class="cadastro__input-borderl"></span>
+
+                <input 
+                  class="cadastroInput" 
+                  id="inputCPF" 
+                  placeholder="CPF" />
+                <span class="cadastro__input-borderl"></span>
+
+                <input
+                  type="date"
+                  class="cadastroInput"
+                  id="inputNasc"
+                  placeholder="Data de Nascimento"
+                />
+                <span class="cadastro__input-borderl"></span>
+
+                <input 
+                class="senhaInp" 
+                id="inputPass" 
+                placeholder="Senha" 
+                type="password"
+                />
+                <span class="cadastro__input-borders"></span>
+
+                <div style="display: flex">
+                 <p>
+                    <label>
+                      <input
+                        class="with-gap"
+                        name="group1"
+                        type="radio"
+                        value=""
+                        id="alunoCheck"
+                      />
+                      <span>Aluno</span>
+                    </p>
+                    <p>
+                    </label>
+                    <label>
+                      <input
+                        class="with-gap"
+                        name="group1"
+                        type="radio"
+                        id="funcionarioCheck"
+                      />
+                      <span>Funcionario</span>
+                      </p>
+                    </label>
+                </div>
+
+                <button class="button" type="submit">Cadastrar</button>
+                <a href="#" onclick="trocaDiv();"
+                  ><label>Ja possuo conta!</label></a
+                >
+              </form>
+            </div>
+          </div>
+
+          <div class="caracol"><img id="imgs" src="../assets/logo.png" /></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../login + cadastro/cadastro.js"></script>
+
+    <script src="../index.js"></script>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
